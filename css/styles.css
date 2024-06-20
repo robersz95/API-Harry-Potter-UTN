@@ -4,6 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     min-height: 100vh;
+    background-color: black;
 }
 
 header {
@@ -11,6 +12,13 @@ header {
     color: white;
     padding: 1em 0;
     font-size: 25px;
+}
+
+.bienvenidos {
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 nav ul {
@@ -41,6 +49,13 @@ main {
 .intro {
     max-width: 800px;
     margin: 0 auto;
+}
+
+.resumen {
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 .enlace {
