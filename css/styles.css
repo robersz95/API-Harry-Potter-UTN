@@ -14,13 +14,6 @@ header {
     font-size: 25px;
 }
 
-.bienvenidos {
-    background-color: grey;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
 nav ul {
     list-style: none;
     display: flex;
@@ -44,6 +37,38 @@ main {
     padding: 2em;
     text-align: center;
     margin-bottom: 60px;
+}
+
+.bienvenidos {
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.casas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    transition: 0.3s;
+}
+
+a {
+    transition: 0.3s;
+}
+
+a:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.foto {
+    margin-top: 20px;
 }
 
 .intro {
