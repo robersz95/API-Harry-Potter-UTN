@@ -1,3 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: black;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 1em 0;
+    font-size: 25px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -58,4 +99,14 @@ h1 {
     transform: scale(1.02);
     border: solid 1px white;
     cursor: pointer;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
 }
