@@ -64,11 +64,11 @@ main {
 
 h1 {
     font-size: 50px;
+    color: white;
 }
 
 .personaje-card {
     display: inline-block;
-    padding: 10px;
     margin: 10px;
     background-color: grey;
     border-radius: 15px;
@@ -78,7 +78,7 @@ h1 {
 
 .personaje-card img {
     display: block;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     margin: 0 auto 10px;
 }
@@ -97,7 +97,7 @@ h1 {
 
 .personaje-card:hover {
     transform: scale(1.02);
-    border: solid 1px white;
+    border: solid 1px yellow;
     cursor: pointer;
 }
 
@@ -109,4 +109,34 @@ footer {
     position: relative;
     width: 100%;
     bottom: 0;
+}
+
+.myBtn {
+    display: none;
+    /* Ocultar el botón inicialmente */
+    position: fixed;
+    /* Fijar posición */
+    bottom: 20px;
+    /* Distancia desde abajo */
+    right: 30px;
+    /* Distancia desde la derecha */
+    z-index: 99;
+
+    border: none;
+
+    outline: none;
+
+    background-color: #007bff;
+
+    color: white;
+
+    cursor: pointer;
+
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.myBtn:hover {
+    background-color: #555;
+    /* Cambio de color al pasar el ratón */
 }
