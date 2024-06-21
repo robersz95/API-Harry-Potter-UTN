@@ -26,9 +26,9 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
-    background-color: black;
+    background-color: grey;
     padding: 10px;
     border-radius: 10px;
 }
@@ -47,6 +47,7 @@ main {
 }
 
 .casas {
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
@@ -107,6 +108,20 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
 
+}
+
+/*tablet*/
+@media (max-width: 768px) {
+    .peliculas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/*celular*/
+@media (max-width: 480px) {
+    .peliculas {
+        grid-template-columns: 1fr;
+    }
 }
 
 h3 {
