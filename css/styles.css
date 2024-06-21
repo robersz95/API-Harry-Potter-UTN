@@ -56,7 +56,6 @@ main {
 img {
     width: 100%;
     height: auto;
-    transition: 0.3s;
 }
 
 a {
@@ -100,4 +99,20 @@ footer {
     position: relative;
     width: 100%;
     bottom: 0;
+}
+
+.peliculas {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+h3 {
+    display: block;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    background-color: grey;
 }
